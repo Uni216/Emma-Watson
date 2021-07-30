@@ -1,0 +1,14 @@
+img{
+    width: 450px;
+}
+body{
+    background-image: linear-gradient(purple,yellow);
+        text-align: center;
+}
+.line { height: 6px; background-color:dodgerblue; width: 900px; margin: 8px auto; }
+img{
+ transition: transform .2s;   
+}
+img:hover{
+    transform: scale(1.2);
+}
